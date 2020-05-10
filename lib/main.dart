@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.grey[600],
+        backgroundColor: Colors.black,
         body: SafeArea(
           child: Center(
             child: Column(
@@ -26,16 +26,16 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   fontFamily: 'GFS Neohellenic',
                 ),),
-//                SizedBox(
-//                  width:20.0,
-//                  height: 150.0,
-//                child: Divider(
-//                  color: Colors.teal.shade900,
-//                ),),
+                SizedBox(
+                  height: 20.0,
+                width: 150.0,
+                child: Divider(
+                  color: Colors.white,
+                ),),
                 Text('Philosopher',
                   style:TextStyle(
                     fontFamily: 'GFS Neohellenic',
-                    color: Colors.teal.shade100,
+                    color: Colors.white,
                     fontSize: 20.0,
                     letterSpacing: 2.5,
                   ) ,
@@ -61,6 +61,38 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                 ),
+                Card(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(
+                    vertical: 10.0,
+                    horizontal: 25.0,
+                  ),
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.email,
+                      color: Colors.black,
+                    ),
+                    title: Text('socrates@platoacademy.com',
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 23.0,
+                      fontFamily: 'GFS Neohellenic',
+                    ),),
+                  ),
+
+                ),
+                SizedBox(
+                  height: 10.0,
+                  width: 150.0,
+                  child: Divider(
+                    color: Colors.white,
+                  ),
+                ),
+                Text('“The unexamined life is not worth living for a human being.”',
+                style: TextStyle(
+                  fontSize: 13.0,
+                  color: Colors.white
+                ),)
 
 
               ],
