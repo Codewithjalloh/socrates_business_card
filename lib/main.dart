@@ -7,6 +7,17 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.purple[200],
+        body: SafeArea(
+          child: Center(
+            child: Column(
+
+            ),
+          ),
+        ),
+      ),
+    );
   }
 }
