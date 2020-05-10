@@ -2,6 +2,9 @@
 
 A new Flutter application.
 
+![Simulator Screen Shot - iPhone 11 Pro Max - 2020-05-10 at 17 54 09](https://user-images.githubusercontent.com/15523460/81505500-88e48600-92e7-11ea-85a8-467df58e3ba4.png)
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
